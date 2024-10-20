@@ -33,4 +33,3 @@ const images = [
       alt: "Lighthouse Coast Sea",
     },
   ];
-  
