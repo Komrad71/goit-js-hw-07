@@ -82,5 +82,5 @@ button[data-destroy]:hover {
   flex-wrap: wrap;
   gap: 10px;
   background: #f6f6fe;
-  width: 486px;
+  min-width: 486px;
 }
