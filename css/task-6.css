@@ -1,0 +1,86 @@
+body {
+  padding: 24px;
+}
+#controls {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  /* margin: 0 auto; */
+  background: #f6f6fe;
+  margin-bottom: 16px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 150px;
+  height: 40px;
+  outline: none;
+  background: #f6f6fe;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+button[data-create] {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button[data-create]:hover {
+  background: #6c8cff;
+}
+
+
+button[data-destroy] {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+
+  background: #ff4e4e;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+button[data-destroy]:hover {
+  background: #ff7070;
+}
+
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: #f6f6fe;
+  width: 486px;
+}
