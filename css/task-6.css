@@ -10,7 +10,7 @@ body {
 
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
+  min-width: 486px;
   height: 104px;
   /* margin: 0 auto; */
   background: #f6f6fe;
