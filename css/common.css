@@ -26,3 +26,7 @@ ul {
 img {
   display: block;
 }
+
+input {
+  outline: none;
+}
